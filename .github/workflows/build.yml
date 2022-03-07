@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -88,7 +88,7 @@ jobs:
       MONGO_HOST: localhost
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -148,7 +148,7 @@ jobs:
       MONGO_HOST: localhost
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -209,7 +209,7 @@ jobs:
       TEST_ELASTICSEARCH_INTEGRATION: 'true'
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -262,7 +262,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/sidekiq-4.x-graphql-1.7.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -315,7 +315,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/graphql-1.9.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -369,7 +369,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/rails-5.2.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -423,7 +423,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/rails-6.0.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -477,7 +477,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/rails-6.1.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -532,7 +532,7 @@ jobs:
       RAILS_EDGE: true
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -585,7 +585,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/sinatra-1.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -639,7 +639,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/sinatra-2.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -693,7 +693,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/sinatra-edge/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -746,7 +746,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/grape-1.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -800,7 +800,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/grape-1.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -853,7 +853,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/grape-1.2.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -907,7 +907,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/grape-edge/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -960,7 +960,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/sequel-4.34.0/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -1013,7 +1013,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/ams-0.8.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -1066,7 +1066,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/ams-0.9.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -1119,7 +1119,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/ams-0.10.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -1173,7 +1173,7 @@ jobs:
       BUNDLE_GEMFILE: gemfiles/rails-6.1.x/Gemfile
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -1230,7 +1230,7 @@ jobs:
       RAILS_EDGE: true
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -1282,7 +1282,7 @@ jobs:
     if: always()
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -1326,7 +1326,7 @@ jobs:
     if: always()
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Set up commit metadata (push)
       if: github.event_name == 'push'
       env:
