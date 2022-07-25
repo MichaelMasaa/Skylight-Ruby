@@ -4,7 +4,7 @@ gemspec
 
 gem "grape", "~> 1.5.3"
 gem "rails", "~> 6.1.3"
-gem "sinatra", "~> 2.1.0"
+gem "sinatra", "~> 2.2.2"
 
 eval_gemfile "./gemfiles/Gemfile.additional"
 
